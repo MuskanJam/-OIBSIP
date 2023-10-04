@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/icons/m.png"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <title>Muskan Jam | Web Developer</title>
+  </head>
+
+  <body>
+    <nav>
+      <h1>Muskan Jam</h1>
+      <ul class="navigation">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <button class="burger-menu" id="burger-menu">
+        <ion-icon class="bars" name="menu-outline"></ion-icon>
+        
+      </button>
+    </nav>
+    
+    
+    <section class="hero" id="about">
+      <img
+        src="assets/images/wfh_1.svg"
+        alt="muskan-jam"
+        loading="lazy"
+        class="hero-img"
+      />
+      <div class="bio animate__animated animate__shakeX">
+        <h2 class="bio-title">About Me</h2>
+        <p class="bio-text">
+          My goal is to dive into data science. With proficiency in Python, web development, and solid coursework in data-related subjects, I'm eager to tackle real-world data challenges.
+        </p>
+      </div>
+    </section>
+    <section class="more-about">
+      <h2>More About Me</h2>
+      <p>
+        I am a highly motivated and detail-oriented individual who thrives in collaborative environments. I have a strong desire to continue learning and staying updated with the latest advancements in data science. My goal is to contribute my skills and enthusiasm to a dynamic team and make a meaningful impact through data-driven insights.
+      </p>
+      <p>
+        I am excited to embark on my journey as a data scientist as well as web developer and leverage my skills to drive innovation and solve complex challenges in the field of data science and web developer.
+      </p>
+    </section>
+
+    
+    <section class="skills" id="skills">
+      <h2 class="skill-header">My Top Skills</h2>
+
+      <div class="skills-wrapper">
+        <div class="first-set animate__animated animate__pulse">
+          <img
+            src="assets/icons/icons8-html-5.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/icons8-css3.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/icons8-javascript.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+        </div>
+      </div>
+    </section>
+    <section class="projects" id="projects">
+      <h2 class="projects-title">My Recent Project</h2>
+      <div class="projects-container">
+        <div class="project-container project-card">
+          <img
+            src="assets/images/musicsystem.png"
+            alt="musicrecommendationsystem"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Music Recommendation System</h3>
+          <p class="project-details">
+            A music recommendation system is PHP-based system enhances the user's music experience by considering their preferences and listening habits, offering a tailored playlist that encourages music exploration while catering to individual tastes.
+          </p>
+          <a href="#" target="_blank" class="project-link">Check it Out</a>
+        </div>
+      </div>
+    </section>
+    <section class="contact" id="contact">
+      <h2>Get In Touch With Me</h2>
+      <div class="contact-form-container">
+        <div class="contact-form">
+          <form action="form-control" method="POST">
+            <div class="form-control">
+              <label for="name">Name</label>
+              <input
+                type="text"
+                id="name"
+                name="sender-name"
+                placeholder="Enter Your Name"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="sender-email"
+                placeholder="Enter Your Email"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                cols="60"
+                rows="10"
+                placeholder="Enter Your Message"
+                name="message"
+                class="input-field"
+                required
+              ></textarea>
+            </div>
+            <input
+              type="submit"
+              value="Submit"
+              id="submit-btn"
+              class="submit-btn"
+            />
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <div class="socials">
+      <a href="www.linkedin.com/in/muskan-jam-437580270" target="_blank"
+        ><img
+          src="assets/icons/icons8-linkedin-circled.gif" alt="Linkedin" class="socicon"
+      /></a>
+      <a href="https://github.com/MuskanJam" target="_blank"
+        ><img src="assets/icons/icons8-github.gif" alt="Github" class="socicon"
+      /></a>
+    </div>
+    <footer>
+      Thank You for Visiting!
+    </footer>
+  </body>
+</html>
